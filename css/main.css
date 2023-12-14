@@ -1,0 +1,371 @@
+@font-face {
+  font-family: 'Fredoka';
+  src: url('../fonts/Fredoka-Regular.woff2') format('woff2'),
+      url('../fonts/Fredoka-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+      url('../fonts/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+      url('../fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Hind Madurai';
+  src: url('../fonts/HindMadurai-Medium.woff2') format('woff2'),
+      url('../fonts/HindMadurai-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hind Madurai';
+  src: url('../fonts/HindMadurai-Regular.woff2') format('woff2'),
+      url('../fonts/HindMadurai-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* Basic style start  */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container{
+  width: 1250px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+/* Basic style end  */
+
+
+/* header style start  */
+.site-header{
+  background-color:rgba(242, 206, 218, 0.3) ;
+  
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+ 
+
+}
+
+.header__logo-link{
+  display: inline-block;
+ }
+
+.header__wrapper{
+  width: 774px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__list{
+  display: flex;
+}
+.navbar__item + .navbar__item{
+  margin-left: 38px;
+}
+
+.navbar__link{
+  color: #150101;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: 0.3s;
+}
+.navbar__link:hover{
+  color: #D23166;
+}
+
+.wrapper__link{
+  padding: 14px 40px 14px 40px;
+  width: 165px;
+  height: 49px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #D23166;
+  color: #FAFAFA;
+  font-family: Hind Madurai;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  
+  
+}
+
+.wrapper__link:hover{
+  color: rgba(210, 49, 102, 1 );
+  font-family: Hind Madurai;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 165px;
+  height: 49px;
+  border-radius: 5px;
+  border: 2px solid #D23166;
+  background-color: white;
+}
+
+
+/* header style end  */
+
+
+/* hero section start  */
+.hero-section{
+  background-color:rgba(242, 206, 218, 0.3) ;
+  background-image: url("../Images/bg-image.png");
+  background-repeat: no-repeat;
+  background-size: 697px 597px;
+  background-position-x: right;
+  background-position-y: 40px;
+  padding: 0px 0px 170px 0px;
+}
+.hero__content{
+  width: 665px;
+}
+
+.hero__content-span{
+  color: #0F0101;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  margin-bottom: 6px;
+  margin-top: 156px;
+  display: inline-block;
+}
+
+.hero__content-title{
+  color: #0F0101;
+  font-family: Fredoka;
+  font-size: 57.33px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120.5%;
+  margin-bottom: 35px;
+
+}
+
+.hero__content-title_red{
+  opacity: 0.9;
+  color: #D23166;
+}
+
+.hero__content-text{
+  color: #0F0101;
+  font-family: Hind Madurai;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 50px;
+}
+
+.hero__link{
+  display: inline-block;
+  width: 165px;
+  height: 49px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #D23166;
+  padding: 16px 50px;
+  color: #FAFAFA;
+
+  font-family: Hind Madurai;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* hero section end  */
+
+
+/* inner style start  */
+
+.inner{
+  padding: 100px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner__box{
+  position: relative;
+  text-align: center;
+  width: 250px;
+  height: 200px;
+  padding: 101px 26px 0px;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  transition: 0.3s;
+ 
+}
+.inner__box:hover{
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+
+}
+
+.inner__box::before{
+  position: absolute;
+ 
+  content: " ";
+  width: 51px;
+  height: 43px;
+  background-image: url("../Images/car.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 33px;
+  left: 100px;
+  bottom: 0px;
+}
+
+.box__two::before{
+  position: absolute;
+ 
+  content: " ";
+  width: 32px;
+  height: 42px;
+  background-image: url("../Images/Group.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 33px;
+  left: 110px;
+  bottom: 0px;
+}
+
+.box__three::before{
+  position: absolute;
+ 
+  content: " ";
+  width: 44px;
+  height: 44px;
+  background-image: url("../Images/cash-back.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 33px;
+  left: 100px;
+  bottom: 0px;
+}
+.box__four::before{
+  position: absolute;
+ 
+  content: " ";
+  width: 54px;
+  height: 54px;
+  background-image: url("../Images/fast-delivery.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 33px;
+  left: 100px;
+  bottom: 0px;
+}
+
+
+
+
+.inner__box-title{
+  color: #000;
+  font-family: Hind Madurai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.inner__box-text{
+  color: #000;
+  opacity: 0.6;
+  text-align: center;
+  font-family: Hind Madurai;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* inner style end  */
+
+
+/* Brown section style start  */
+.brown-section{
+  background-color:rgba(242, 206, 218, 0.3) ;
+  padding: 141px 0px 161px 0px;
+}
+
+.brown__content{
+  width: 442px;
+}
+
+.brown__title{
+  color: #150101;
+  font-family: Hind Madurai;
+  font-size: 44.2px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110.5%; /* 48.841px */
+  margin-bottom: 16px;
+}
+
+.brown__text{
+  color: #150101;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+}
+
+.brown__link{
+  border-radius: 5px;
+  background: #D64374;
+  display: inline-block;
+  color: #FAFAFA;
+  padding: 15px 42px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.brown__link:hover{
+  border: 2px solid #D23166;
+  background-color: white;
+}
+/* Brown section style end  */
